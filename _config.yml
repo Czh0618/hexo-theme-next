@@ -124,7 +124,6 @@ menu:
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
-  guestbook: /guestbook || fa fa-guestbook
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -611,9 +610,9 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: false
-  appid: # Your leancloud application appid
-  appkey: # Your leancloud application appkey
+  enable: true
+  appid: W0EsoBJW8jNvV27BRhZ220O5-gzGzoHsz # Your leancloud application appid
+  appkey: appKVGWTIO3mJuEZF2uOjkCk # Your leancloud application appkey
   notify: false # Mail notifier
   verify: false # Verification code
   placeholder: Just go go # Comment box placeholder
