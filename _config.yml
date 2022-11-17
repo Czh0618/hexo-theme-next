@@ -119,7 +119,7 @@ menu:
   home: / || fa fa-home
   #about: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags
-  #categories: /categories/ || fa fa-th
+  categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
@@ -158,7 +158,7 @@ sidebar:
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
   offset: 12
   # Enable sidebar on narrow view (only for Muse | Mist).
-  onmobile: false
+  onmobile: true
 
 # Sidebar Avatar
 avatar:
