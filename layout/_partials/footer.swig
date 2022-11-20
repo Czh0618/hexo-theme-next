@@ -66,7 +66,7 @@
 <script>
     var now = new Date(); 
     function createtime() { 
-        var grt= new Date("08/10/2020 00:00:00");//在此处修改你的建站时间
+        var grt= new Date("09/11/2022 00:00:00");//在此处修改你的建站时间
         now.setTime(now.getTime()+250); 
         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
