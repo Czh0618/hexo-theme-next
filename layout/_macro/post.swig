@@ -211,10 +211,6 @@
     {### END POST BODY ###}
     {#####################}
 
-    {%- if theme.recommended_posts.enabled and not is_index %}
-        {{ partial('_macro/recommended_posts.swig',{post: post,site: site})}}
-    {%- endif %}
-
     {%- if theme.related_posts.enable and (theme.related_posts.display_in_home or not is_index) %}
       {{ partial('_partials/post/post-related.swig') }}
     {%- endif %}
